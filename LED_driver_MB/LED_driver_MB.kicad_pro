@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.12
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -456,6 +456,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -466,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LED_driver.kicad_pro",
+    "filename": "LED_driver_MB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -725,6 +726,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -810,6 +817,10 @@
     [
       "4529621c-4a9f-4417-9577-c55ff01ea0f5",
       "Channel5"
+    ],
+    [
+      "f7446a84-455a-483c-bd5e-8811951ddc98",
+      "5V"
     ]
   ],
   "text_variables": {}

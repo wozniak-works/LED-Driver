@@ -914,168 +914,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1754,264 +1592,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:MP2393GTL-Z"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC1"
-				(at 12.7 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MP2393GTL-Z"
-				(at 12.7 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOTFL50P160X60-8N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Converter DC to DC Step-Down 4.2V to 24V 3A 8-Pin SOT-583 T/R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.6"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "946-MP2393GTL-Z"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2393GTL-Z?qs=YCa%2FAAYMW02wfKsqEy92eA%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Monolithic Power Systems (MPS)"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MP2393GTL-Z"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MP2393GTL-Z_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "SS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -15.24 180)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3287,16 +2867,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Do symulacji\n"
-		(exclude_from_sim no)
-		(at 137.414 26.416 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6bf99d50-6b5a-4dd5-bc5c-d8ed49337b22")
-	)
 	(junction
 		(at 33.02 82.55)
 		(diameter 0)
@@ -3310,28 +2880,10 @@
 		(uuid "18450fc1-bfd1-4481-bcc9-916bc7f93543")
 	)
 	(junction
-		(at 146.05 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c369c4c-ad41-4537-97b4-966e44a3e15e")
-	)
-	(junction
-		(at 146.05 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20d80192-c3bc-4a3b-81ae-5de9ebe7b282")
-	)
-	(junction
-		(at 170.18 39.37)
+		(at 144.78 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2289de22-f914-4f7f-a5d4-304336f35951")
-	)
-	(junction
-		(at 158.75 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27d0bdfd-95e5-4be9-911b-04b5f68566d7")
 	)
 	(junction
 		(at 78.74 31.75)
@@ -3346,18 +2898,6 @@
 		(uuid "3fd674f8-8770-4e1f-8a30-eb7fc527ad98")
 	)
 	(junction
-		(at 146.05 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "505e367d-10c7-42a1-9c05-fb818b55a9d2")
-	)
-	(junction
-		(at 132.08 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50eb74f7-e7c2-4969-9181-00764f083208")
-	)
-	(junction
 		(at 33.02 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3368,12 +2908,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9460dcd6-1874-4dfd-8fd7-a069b25f9f85")
-	)
-	(junction
-		(at 158.75 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6e131a1-0dc0-4f6d-b8d2-2bd3ec1f4514")
 	)
 	(junction
 		(at 33.02 62.23)
@@ -3493,16 +3027,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 39.37) (xy 146.05 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e72ca58-dc18-464b-be90-f3cc64462b35")
-	)
-	(wire
-		(pts
 			(xy 232.41 121.92) (xy 232.41 120.65)
 		)
 		(stroke
@@ -3540,16 +3064,6 @@
 			(type default)
 		)
 		(uuid "102b9e03-c66a-4ef0-985a-8a3c0ec1a968")
-	)
-	(wire
-		(pts
-			(xy 99.06 46.99) (xy 96.52 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10423d03-155a-4be2-9674-2cfbde357fdf")
 	)
 	(wire
 		(pts
@@ -3593,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 69.85) (xy 80.01 69.85)
+			(xy 93.98 140.97) (xy 102.87 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3620,26 +3134,6 @@
 			(type default)
 		)
 		(uuid "1d2241bf-2a51-4fa3-9ae8-7212c1c4800d")
-	)
-	(wire
-		(pts
-			(xy 82.55 39.37) (xy 99.06 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3c2055-5bc2-4afa-8f0a-3189804e3b07")
-	)
-	(wire
-		(pts
-			(xy 158.75 46.99) (xy 170.18 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e914a21-2e74-4273-964c-9ee81bea80e2")
 	)
 	(wire
 		(pts
@@ -3713,7 +3207,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 67.31) (xy 80.01 67.31)
+			(xy 93.98 138.43) (xy 102.87 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3780,6 +3274,26 @@
 			(type default)
 		)
 		(uuid "34b17667-f7b5-4d26-b865-1de26a7d2794")
+	)
+	(wire
+		(pts
+			(xy 93.98 27.94) (xy 100.965 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3547eec9-6b77-4196-a944-72096258d32d")
+	)
+	(wire
+		(pts
+			(xy 88.9 16.51) (xy 97.79 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358fecad-e9c3-4721-8113-c8aada38d408")
 	)
 	(wire
 		(pts
@@ -3933,26 +3447,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 39.37) (xy 144.78 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a67e298-ea84-4e77-ac41-262d72cf120c")
-	)
-	(wire
-		(pts
-			(xy 93.98 36.83) (xy 99.06 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b78f6f3-979e-4548-83b0-281be908320f")
-	)
-	(wire
-		(pts
 			(xy 16.51 74.93) (xy 16.51 73.66)
 		)
 		(stroke
@@ -3980,16 +3474,6 @@
 			(type default)
 		)
 		(uuid "54f8eace-07dc-4c82-b2a8-1a8d4447a155")
-	)
-	(wire
-		(pts
-			(xy 146.05 40.64) (xy 146.05 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b718f5-7a43-4714-b60c-630b0a5a0b36")
 	)
 	(wire
 		(pts
@@ -4023,16 +3507,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 39.37) (xy 132.08 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c5bdbc7-2855-4067-82fe-ad45390bbb9c")
-	)
-	(wire
-		(pts
 			(xy 33.02 72.39) (xy 40.64 72.39)
 		)
 		(stroke
@@ -4063,16 +3537,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 31.75) (xy 132.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68d3d84f-4240-4ed1-84a0-8d882229a84b")
-	)
-	(wire
-		(pts
 			(xy 20.32 71.12) (xy 20.32 69.85)
 		)
 		(stroke
@@ -4083,6 +3547,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 30.48) (xy 144.78 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7b938d-3519-4e15-91e3-5aa62f1b3264")
+	)
+	(wire
+		(pts
 			(xy 22.86 74.93) (xy 16.51 74.93)
 		)
 		(stroke
@@ -4090,16 +3564,6 @@
 			(type default)
 		)
 		(uuid "6f54653d-7cb5-4542-a367-fddc271010db")
-	)
-	(wire
-		(pts
-			(xy 96.52 46.99) (xy 96.52 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fe26b33-f6d5-4d50-a0f8-bc2df9048659")
 	)
 	(wire
 		(pts
@@ -4120,16 +3584,6 @@
 			(type default)
 		)
 		(uuid "721725e3-a12d-492e-a047-78496cedbfe2")
-	)
-	(wire
-		(pts
-			(xy 132.08 39.37) (xy 137.16 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724c3016-dca6-4339-84f9-588135628f03")
 	)
 	(wire
 		(pts
@@ -4163,26 +3617,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 31.75) (xy 125.73 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "778c340c-3edf-4fa1-b689-b0d2fe005903")
-	)
-	(wire
-		(pts
-			(xy 87.63 41.91) (xy 87.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7afaf52f-ffbe-4954-88a9-73c63b161d77")
-	)
-	(wire
-		(pts
 			(xy 33.02 71.12) (xy 33.02 72.39)
 		)
 		(stroke
@@ -4190,16 +3624,6 @@
 			(type default)
 		)
 		(uuid "7c1c6dba-ecc2-4b3c-88d6-47ff85f25db9")
-	)
-	(wire
-		(pts
-			(xy 124.46 46.99) (xy 132.08 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c7eded1-0204-4f44-a942-7086ebdfc8f2")
 	)
 	(bus
 		(pts
@@ -4210,16 +3634,6 @@
 			(type default)
 		)
 		(uuid "7df4c380-ccd2-413a-a160-e1c0e1fb4090")
-	)
-	(wire
-		(pts
-			(xy 146.05 46.99) (xy 146.05 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8125d3a1-63c0-40c2-9120-eb4e103c0464")
 	)
 	(wire
 		(pts
@@ -4283,7 +3697,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 31.75) (xy 99.06 31.75)
+			(xy 78.74 31.75) (xy 100.965 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4300,16 +3714,6 @@
 			(type default)
 		)
 		(uuid "91476b77-5fee-4139-b932-c1d086c03c39")
-	)
-	(wire
-		(pts
-			(xy 130.81 31.75) (xy 132.08 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93bf07ae-582d-4443-a769-ca87ed1c2df1")
 	)
 	(bus
 		(pts
@@ -4351,16 +3755,6 @@
 		)
 		(uuid "9732a4d6-8084-4112-9b22-4b40dda3cf52")
 	)
-	(wire
-		(pts
-			(xy 88.9 27.94) (xy 88.9 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "975558b6-2ebe-4d29-85aa-8a28f7c609b3")
-	)
 	(bus
 		(pts
 			(xy 180.34 134.62) (xy 180.34 137.16)
@@ -4370,26 +3764,6 @@
 			(type default)
 		)
 		(uuid "993d945a-aa30-44df-96a5-c7a1286f7f33")
-	)
-	(wire
-		(pts
-			(xy 87.63 50.8) (xy 87.63 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f7f5f6-9e73-472f-98e3-fde2327ad25f")
-	)
-	(wire
-		(pts
-			(xy 146.05 53.34) (xy 158.75 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce07875-f0d9-4a06-a758-345ef8404b13")
 	)
 	(wire
 		(pts
@@ -4453,16 +3827,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 39.37) (xy 158.75 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a946a4a3-e82f-4860-b550-5659482c3784")
-	)
-	(wire
-		(pts
 			(xy 33.02 71.12) (xy 30.48 71.12)
 		)
 		(stroke
@@ -4483,17 +3847,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 41.91) (xy 87.63 41.91)
+			(xy 97.79 16.51) (xy 97.79 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b290c396-b899-48df-8829-29b2adb76adc")
+		(uuid "b3be8d0a-afab-41ba-9ddc-eeed2edba542")
 	)
 	(wire
 		(pts
-			(xy 71.12 80.01) (xy 80.01 80.01)
+			(xy 93.98 151.13) (xy 102.87 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4510,16 +3874,6 @@
 			(type default)
 		)
 		(uuid "b6898ba0-06be-4c41-b317-99791779930f")
-	)
-	(wire
-		(pts
-			(xy 137.16 46.99) (xy 146.05 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bae551a3-c1fb-4928-83d2-a8e05d902728")
 	)
 	(wire
 		(pts
@@ -4573,7 +3927,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 74.93) (xy 80.01 74.93)
+			(xy 93.98 146.05) (xy 102.87 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4633,6 +3987,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 22.86) (xy 88.9 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f152c6-bb3b-49b9-b787-f5ee8f01ad4f")
+	)
+	(wire
+		(pts
 			(xy 35.56 62.23) (xy 33.02 62.23)
 		)
 		(stroke
@@ -4640,16 +4004,6 @@
 			(type default)
 		)
 		(uuid "d3c9633b-8ae4-415f-91ff-53b6301a99f3")
-	)
-	(wire
-		(pts
-			(xy 158.75 53.34) (xy 158.75 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d43add01-13a8-4752-96d8-da19d3384915")
 	)
 	(wire
 		(pts
@@ -4693,7 +4047,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 72.39) (xy 80.01 72.39)
+			(xy 93.98 143.51) (xy 102.87 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4753,16 +4107,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 38.1) (xy 132.08 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eadd0428-6e45-4214-a222-daf3fb00a3ac")
-	)
-	(wire
-		(pts
 			(xy 30.48 74.93) (xy 33.02 74.93)
 		)
 		(stroke
@@ -4770,16 +4114,6 @@
 			(type default)
 		)
 		(uuid "ed14b640-8223-475b-a547-d0d2a619192b")
-	)
-	(wire
-		(pts
-			(xy 82.55 46.99) (xy 82.55 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed91329c-a8f1-4d36-a2a6-c72b987f272c")
 	)
 	(wire
 		(pts
@@ -4803,16 +4137,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 41.91) (xy 82.55 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0588eed-ff53-4e06-9141-7e798a1fbd38")
-	)
-	(wire
-		(pts
 			(xy 21.59 24.13) (xy 15.24 24.13)
 		)
 		(stroke
@@ -4830,16 +4154,6 @@
 			(type default)
 		)
 		(uuid "f689910d-a41d-40bd-b282-1b456956dfe4")
-	)
-	(wire
-		(pts
-			(xy 146.05 46.99) (xy 146.05 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6bba0f1-f26e-4c3f-a07b-e1bad3278bb4")
 	)
 	(wire
 		(pts
@@ -4863,7 +4177,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 77.47) (xy 80.01 77.47)
+			(xy 93.98 148.59) (xy 102.87 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4902,7 +4216,7 @@
 		(uuid "212343eb-e47b-4da3-bc5b-b6c8f23687aa")
 	)
 	(label "CH5"
-		(at 71.12 80.01 0)
+		(at 93.98 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4922,7 +4236,7 @@
 		(uuid "2ec5cf74-3aae-4ea1-86a1-2a1ba59ac9e8")
 	)
 	(label "CH1"
-		(at 71.12 69.85 0)
+		(at 93.98 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4942,7 +4256,7 @@
 		(uuid "39c3e293-d5d7-4991-941d-6f3f36c88ea5")
 	)
 	(label "CH4"
-		(at 71.12 77.47 0)
+		(at 93.98 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5012,7 +4326,7 @@
 		(uuid "6846dc6f-1665-4887-a44c-69aba1a99fce")
 	)
 	(label "CH3"
-		(at 71.12 74.93 0)
+		(at 93.98 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5092,7 +4406,7 @@
 		(uuid "ab3bfc31-c7a1-4dbd-bba1-f030f30d5d84")
 	)
 	(label "CH2"
-		(at 71.12 72.39 0)
+		(at 93.98 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5112,7 +4426,7 @@
 		(uuid "b3e8a672-1fcf-4450-a182-15b9d6d28ebe")
 	)
 	(label "CH0"
-		(at 71.12 67.31 0)
+		(at 93.98 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5286,6 +4600,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68f5d0b9-5109-4bb3-8cfa-4b84a5ffc4ba")
 		)
@@ -5432,6 +4809,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 25.4 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 25.4 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 25.4 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 25.4 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46e9c910-4583-4811-a0f8-253cba5b6153")
 		)
@@ -5449,7 +4889,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 85.09 69.85 0)
+		(at 107.95 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5458,7 +4898,7 @@
 		(fields_autoplaced yes)
 		(uuid "0729d283-ee09-45b5-9cb6-8e626c379f34")
 		(property "Reference" "J2"
-			(at 86.36 68.5799 0)
+			(at 109.22 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +4907,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 86.36 71.1199 0)
+			(at 109.22 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +4916,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
-			(at 85.09 69.85 0)
+			(at 107.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +4925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 69.85 0)
+			(at 107.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +4934,70 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 85.09 69.85 0)
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 107.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,6 +5076,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 26.67 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 26.67 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 26.67 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 26.67 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 26.67 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 26.67 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 26.67 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "401d4f93-a45e-484d-a13c-4a11746f18b2")
 		)
@@ -5583,76 +5149,6 @@
 			(project "LED_driver"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "F12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 158.75 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13bb2709-dd87-4224-9960-173bfc5d6e56")
-		(property "Reference" "C3"
-			(at 162.56 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 162.56 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 159.7152 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 158.75 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ab5074a-ea1d-4332-8101-74965de5adfd")
-		)
-		(pin "1"
-			(uuid "51a85fa9-8728-435a-a2e8-71388732c122")
-		)
-		(instances
-			(project ""
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5711,6 +5207,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 25.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 25.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 25.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 25.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa749d8c-29f9-42cd-98c9-885c900e6f96")
 		)
@@ -5721,144 +5280,6 @@
 			(project "LED_driver"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "F5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:MP2393GTL-Z")
-		(at 99.06 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16bfa7e4-c146-4410-b6db-f12c0d91fcaf")
-		(property "Reference" "IC1"
-			(at 111.76 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MP2393GTL-Z"
-			(at 111.76 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SOTFL50P160X60-8N"
-			(at 120.65 126.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 226.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Converter DC to DC Step-Down 4.2V to 24V 3A 8-Pin SOT-583 T/R"
-			(at 99.06 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6"
-			(at 120.65 426.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "946-MP2393GTL-Z"
-			(at 120.65 526.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2393GTL-Z?qs=YCa%2FAAYMW02wfKsqEy92eA%3D%3D"
-			(at 120.65 626.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Monolithic Power Systems (MPS)"
-			(at 120.65 726.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MP2393GTL-Z"
-			(at 120.65 826.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3d84ac0-00a1-4f58-9845-68a774cae67c")
-		)
-		(pin "1"
-			(uuid "499d5333-ab46-4dab-bcf2-aff3db17e284")
-		)
-		(pin "5"
-			(uuid "bcdeb733-952d-4e44-a2de-8b1b17fdea5a")
-		)
-		(pin "6"
-			(uuid "4e7d8537-619c-46bd-9f98-c7d2a7c49e4d")
-		)
-		(pin "8"
-			(uuid "5e7f44f2-4cb0-4837-9acc-5e413b020745")
-		)
-		(pin "7"
-			(uuid "62cac9ac-02c2-4865-992f-947b1d57e530")
-		)
-		(pin "3"
-			(uuid "1c658a3a-d5c9-447e-8c1b-a0a5a8a0c6cf")
-		)
-		(pin "4"
-			(uuid "7b7d0817-f789-4e46-b736-0b19909714b1")
-		)
-		(instances
-			(project ""
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -5976,6 +5397,69 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 26.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 26.67 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 26.67 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 26.67 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 26.67 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 26.67 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 26.67 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 26.67 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,6 +5601,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cb71a00b-aec9-48f4-8334-04d4d3fe01eb")
 		)
@@ -6187,6 +5734,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faa0a8e0-8cfb-49dd-b118-597939380027")
 		)
@@ -6194,72 +5804,6 @@
 			(project ""
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a72d07a-8c5b-499c-881f-129d95aac808")
-		(property "Reference" "#PWR012"
-			(at 146.05 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eeb4937d-74e5-4dc7-bba1-bfcc1ab4e9b5")
-		)
-		(instances
-			(project "LED_driver"
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6318,6 +5862,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 26.67 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 26.67 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 26.67 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 26.67 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 26.67 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 26.67 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 26.67 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41e624ac-1318-4539-9b6c-48964bb21ffe")
 		)
@@ -6328,76 +5935,6 @@
 			(project "LED_driver"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "F9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30964da3-c3f8-4153-ae96-047f3e41276c")
-		(property "Reference" "C5"
-			(at 85.09 43.1862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8n"
-			(at 85.09 45.7262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 82.55 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 82.55 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c26d7a06-bddc-4561-8a8a-bc59121d730a")
-		)
-		(pin "2"
-			(uuid "40975cbd-49dc-4193-9c79-5f7053dec646")
-		)
-		(instances
-			(project "LED_driver"
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6456,6 +5993,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ba7bdab8-b093-43bf-82ab-a2dd027e3594")
 		)
@@ -6466,84 +6066,6 @@
 			(project "LED_driver"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 132.08 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "354a9a9a-671a-4a5b-8c11-10a2a420e5af")
-		(property "Reference" "C2"
-			(at 134.62 34.2962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 134.62 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 132.08 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 132.08 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GMK107BJ105KA-T"
-			(at 132.08 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "092e4c44-d4f7-46bb-baac-dc4f9516f4eb")
-		)
-		(pin "2"
-			(uuid "3d7a3219-a0ee-4464-b34c-20979cf6537c")
-		)
-		(instances
-			(project ""
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6595,6 +6117,69 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 26.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 26.67 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 26.67 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 26.67 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 26.67 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 26.67 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 26.67 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 26.67 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6684,74 +6269,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 140.97 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "457300ec-40ea-42d7-a261-f66a847ad9cf")
-		(property "Reference" "L1"
-			(at 140.97 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.9uH"
-			(at 140.97 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
-			(at 140.97 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 140.97 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26328b29-4536-452b-ab0a-5d756d4ead4c")
-		)
-		(pin "2"
-			(uuid "3f455a3d-a07c-44f4-9f5e-8d4024ea97c4")
-		)
-		(instances
-			(project ""
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 176.53 81.28 0)
 		(unit 1)
@@ -6798,6 +6315,69 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 176.53 81.28 0)
 			(effects
 				(font
@@ -6876,6 +6456,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d8d0b9af-9955-4121-af27-1f998c8a29de")
 		)
@@ -6886,72 +6529,6 @@
 			(project "LED_driver"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dcd52de-2534-4e24-905c-a957381d4070")
-		(property "Reference" "#PWR011"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c05ae76-96aa-40af-8855-5ac7efe51206")
-		)
-		(instances
-			(project ""
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7012,91 +6589,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dec01c8c-3467-4330-86c6-55bc1a3745fa")
+			(uuid "dec01c8c-3467-4330-86c6-55bc1a3745fb")
 		)
 		(instances
 			(project ""
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 87.63 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55eb1cab-01ce-45ea-adf8-222cdb7e8618")
-		(property "Reference" "D1"
-			(at 91.44 47.3074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 91.44 49.8474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 87.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 87.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 87.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6005fa51-7a70-418f-944d-83f7fade0777")
-		)
-		(pin "1"
-			(uuid "5ab35f2f-47b9-426b-9389-797eeb3b286b")
-		)
-		(instances
-			(project ""
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7157,11 +6655,74 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "dd8b2ce7-00f1-4b66-8354-f33cd4207dba")
+			(uuid "dd8b2ce7-00f1-4b66-8354-f33cd4207dbb")
 		)
 		(pin "2"
-			(uuid "931dd99f-f873-49c4-82e0-050d0c140adb")
+			(uuid "931dd99f-f873-49c4-82e0-050d0c140adc")
 		)
 		(instances
 			(project ""
@@ -7218,6 +6779,69 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 26.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 26.67 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 26.67 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 26.67 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 26.67 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 26.67 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 26.67 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 26.67 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,6 +6983,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 25.4 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 25.4 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 25.4 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 25.4 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fc1bb98-24d8-40bf-a02f-868cc00f800b")
 		)
@@ -7375,77 +7062,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 146.05 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "608ce279-1a88-49f1-b931-4fb544aee13f")
-		(property "Reference" "R5"
-			(at 148.59 49.5299 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.68k"
-			(at 148.59 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 146.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 146.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9aaed9da-bef3-445d-ab57-6612eae8e6fd")
-		)
-		(pin "1"
-			(uuid "88de0449-0ccd-4f06-9617-010821e7e4be")
-		)
-		(instances
-			(project ""
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 170.18 39.37 0)
+		(at 144.78 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7454,7 +7072,7 @@
 		(fields_autoplaced yes)
 		(uuid "60a194d0-f9ae-4a0d-96d1-96f04c5b7082")
 		(property "Reference" "#PWR07"
-			(at 170.18 43.18 0)
+			(at 144.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +7081,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 170.18 34.29 0)
+			(at 144.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 39.37 0)
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 39.37 0)
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +7107,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 170.18 39.37 0)
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7554,6 +7172,69 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -7648,7 +7329,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 91.44 36.83 90)
+		(at 91.44 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7657,7 +7338,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c107ff2-6cff-4ef1-8ac4-ba26f9681c8b")
 		(property "Reference" "R2"
-			(at 91.44 31.75 90)
+			(at 91.44 22.86 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7665,7 +7346,7 @@
 			)
 		)
 		(property "Value" "604k"
-			(at 91.44 34.29 90)
+			(at 91.44 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +7354,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.44 36.83 0)
+			(at 91.44 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 36.83 0)
+			(at 91.44 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +7372,70 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 91.44 36.83 0)
+			(at 91.44 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 91.44 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 91.44 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 91.44 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 91.44 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 91.44 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 91.44 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 91.44 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,8 +7513,71 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "faa0a8e0-8cfb-49dd-b118-597939380027")
+			(uuid "faa0a8e0-8cfb-49dd-b118-597939380028")
 		)
 		(instances
 			(project ""
@@ -7902,8 +7709,71 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "faa0a8e0-8cfb-49dd-b118-597939380027")
+			(uuid "faa0a8e0-8cfb-49dd-b118-597939380029")
 		)
 		(instances
 			(project ""
@@ -7960,6 +7830,69 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 25.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 25.4 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 25.4 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 25.4 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 25.4 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,6 +8038,69 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 161.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 161.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 161.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 161.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 161.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 161.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 161.29 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,6 +8301,69 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 25.4 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 25.4 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 25.4 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 25.4 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 25.4 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,76 +8585,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 146.05 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f0d4980-ff65-44ba-a950-99d67099c3a6")
-		(property "Reference" "R3"
-			(at 148.59 41.9099 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "40.2k"
-			(at 148.59 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 146.05 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 146.05 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9aaed9da-bef3-445d-ab57-6612eae8e6fe")
-		)
-		(pin "1"
-			(uuid "88de0449-0ccd-4f06-9617-010821e7e4bf")
-		)
-		(instances
-			(project ""
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 161.29 77.47 0)
 		(unit 1)
@@ -8773,6 +8762,69 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 25.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 25.4 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 25.4 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 25.4 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 25.4 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,6 +9032,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 26.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 26.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 26.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 26.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 26.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 26.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 26.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e0a575f-1aa8-49ef-b0e7-2097b7f03e0f")
 		)
@@ -9128,83 +9243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 128.27 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7ce15c3-3c72-4cc8-bf5e-b8abe99cf267")
-		(property "Reference" "R1"
-			(at 128.27 26.67 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 128.27 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 128.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF220JT5E"
-			(at 128.27 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bcf9eb3e-be27-4d5d-ac6d-1a8042634d99")
-		)
-		(pin "1"
-			(uuid "403f1f67-d805-4ba3-b62f-1fbab570aafd")
-		)
-		(instances
-			(project "LED_driver"
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 101.6 187.96 0)
 		(unit 1)
@@ -9259,8 +9297,71 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 101.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 101.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 101.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 101.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 101.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 101.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 101.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "faa0a8e0-8cfb-49dd-b118-597939380027")
+			(uuid "faa0a8e0-8cfb-49dd-b118-59793938002a")
 		)
 		(instances
 			(project ""
@@ -9511,6 +9612,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "6ea4a4dd-47a5-4954-a5a7-8fd00b853e94")
 		)
@@ -9702,7 +9866,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 170.18 43.18 0)
+		(at 144.78 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9711,7 +9875,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6fa7f46-176e-46b7-9bec-a00163058cb3")
 		(property "Reference" "C4"
-			(at 173.99 41.9099 0)
+			(at 148.59 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +9884,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 173.99 44.4499 0)
+			(at 148.59 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +9893,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 171.1452 46.99 0)
+			(at 145.7452 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9902,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 43.18 0)
+			(at 144.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9747,7 +9911,70 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 170.18 43.18 0)
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 144.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,6 +10052,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e702f73-437a-482c-8b72-e8a393785a60")
 		)
@@ -9835,72 +10125,6 @@
 			(project "LED_driver"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cca7047a-b104-4ea1-adbf-584d95dba87e")
-		(property "Reference" "#PWR010"
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5807b66c-7819-4994-9350-a1a617ce3763")
-		)
-		(instances
-			(project "LED_driver"
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9953,6 +10177,69 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 44.45 34.29 0)
 			(effects
 				(font
@@ -10032,6 +10319,69 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55c719a1-206a-4347-b808-abac5d1b73e4")
 		)
@@ -10049,7 +10399,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 85.09 77.47 0)
+		(at 107.95 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10058,7 +10408,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4c800d6-4562-4f8a-8dde-f602d30db28b")
 		(property "Reference" "J5"
-			(at 86.36 76.1999 0)
+			(at 109.22 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +10417,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 86.36 78.7399 0)
+			(at 109.22 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10076,7 +10426,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
-			(at 85.09 77.47 0)
+			(at 107.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,7 +10435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 77.47 0)
+			(at 107.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +10444,70 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 85.09 77.47 0)
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 107.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,6 +10528,138 @@
 			(project "LED_driver"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b4d4f8-f6f9-404b-890f-d9bfce116046")
+		(property "Reference" "#PWR011"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1381fef-7a50-4d54-85c9-8e0895d164ae")
+		)
+		(instances
+			(project "LED_driver_MB"
+				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d865b673-8778-4a94-aabf-0536c8fdd642")
+		(property "Reference" "#PWR010"
+			(at 97.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aac2cd4-cab5-4bd2-937b-0bc85b002561")
+		)
+		(instances
+			(project "LED_driver_MB"
+				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10181,83 +10726,6 @@
 			(project "LED_driver"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 134.62 46.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d90f8a26-65ab-4a0e-90c8-168489761b4b")
-		(property "Reference" "R4"
-			(at 134.62 41.91 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "15k"
-			(at 134.62 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.62 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 134.62 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-0715KL"
-			(at 134.62 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "973db97e-22d2-44c3-818b-2a51c669b0b7")
-		)
-		(pin "1"
-			(uuid "e54e4162-756d-4d5d-9246-57786e17ce3c")
-		)
-		(instances
-			(project "LED_driver"
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10393,11 +10861,74 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "4794bf2a-b05d-40cc-950d-6021328a8e73")
+			(uuid "4794bf2a-b05d-40cc-950d-6021328a8e74")
 		)
 		(pin "1"
-			(uuid "2507867f-abc1-4cdd-b600-19b8b72f1376")
+			(uuid "2507867f-abc1-4cdd-b600-19b8b72f1377")
 		)
 		(instances
 			(project ""
@@ -10607,72 +11138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2331522-a9ff-4518-b916-a78e7f194995")
-		(property "Reference" "#PWR013"
-			(at 87.63 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1c5d725-d4f4-40a2-96f0-31c5d21e01e4")
-		)
-		(instances
-			(project ""
-				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 45.72 72.39 0)
 		(unit 1)
@@ -10718,6 +11183,69 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 45.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 45.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 45.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 45.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 45.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 45.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 45.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 45.72 72.39 0)
 			(effects
 				(font
@@ -10799,7 +11327,7 @@
 			)
 		)
 		(instances
-			(project "LED_driver"
+			(project "LED_driver_MB"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(page "7")
 				)
@@ -10861,7 +11389,7 @@
 			)
 		)
 		(instances
-			(project "LED_driver"
+			(project "LED_driver_MB"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(page "6")
 				)
@@ -10923,7 +11451,7 @@
 			)
 		)
 		(instances
-			(project "LED_driver"
+			(project "LED_driver_MB"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(page "2")
 				)
@@ -10985,7 +11513,7 @@
 			)
 		)
 		(instances
-			(project "LED_driver"
+			(project "LED_driver_MB"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(page "4")
 				)
@@ -11047,7 +11575,7 @@
 			)
 		)
 		(instances
-			(project "LED_driver"
+			(project "LED_driver_MB"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(page "5")
 				)
@@ -11109,9 +11637,81 @@
 			)
 		)
 		(instances
-			(project "LED_driver"
+			(project "LED_driver_MB"
 				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.965 23.495)
+		(size 32.385 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f7446a84-455a-483c-bd5e-8811951ddc98")
+		(property "Sheetname" "5V"
+			(at 100.965 22.7834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V.kicad_sch"
+			(at 100.965 44.3996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" output
+			(at 133.35 30.48 0)
+			(uuid "45cb0b37-2d4e-477f-9c2c-8838cbed5c74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4.5-17V" input
+			(at 100.965 31.75 180)
+			(uuid "ed920e47-3265-4e52-9d93-e6b0046a9bda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 100.965 27.94 180)
+			(uuid "cb2cfbad-a722-4357-981d-b78eaac2c4e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LED_driver_MB"
+				(path "/fa1790af-3f57-463e-b937-0fdca9daaa52"
+					(page "8")
 				)
 			)
 		)
